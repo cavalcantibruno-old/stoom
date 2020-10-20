@@ -1,26 +1,28 @@
-# stoom | Teste de Qualificação Backend STOOM
+# STOOM | Teste de Qualificação Backend STOOM.
 
-## GET    | http://localhost:8080/endereco
-## POST   | http://localhost:8080/endereco
-## PUT    | http://localhost:8080/endereco
-## DELETE | http://localhost:8080/endereco
+## GET, POST, PUT, DELETE
+~~~
+http://localhost:8080/endereco
+~~~
 
 O teste consiste em criar no padrão REST, um CRUD (Create, Read, Update, Delete) de uma entidade endereço com os seguintes atributos:
 
-id*
-streetName*
-number*
-complement
-neighbourhood*
-city*
-state*
-country*
-zipcode*
-latitude
-longitude
+* -id*
+* -streetName*
+* -number*
+* -complement
+* -neighbourhood*
+* -city*
+* -state*
+* -country*
+* -zipcode*
+* -latitude
+* -longitude
+~~~
 Obs.: Os atributos marcados com * devem ser obrigatórios
+~~~
 
-Obrigatório
+## Obrigatório
 
 1- Deve-se utilizar Java para criação desse CRUD. O framework pode ser o que se sentir mais à vontade.
 
