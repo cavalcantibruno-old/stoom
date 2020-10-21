@@ -1,6 +1,8 @@
 # STOOM | Teste de Qualificação Backend STOOM.
 
-## GET, POST, PUT, DELETE
+#### Support.
+
+GET, POST, PUT, DELETE: 
 ~~~
 http://localhost:8080/endereco
 ~~~
@@ -22,7 +24,7 @@ O teste consiste em criar no padrão REST, um CRUD (Create, Read, Update, Delete
 Obs.: Os atributos marcados com * devem ser obrigatórios
 ~~~
 
-## Obrigatório
+### Obrigatório
 
 1- Deve-se utilizar Java para criação desse CRUD. O framework pode ser o que se sentir mais à vontade.
 

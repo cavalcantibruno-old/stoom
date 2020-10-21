@@ -87,10 +87,31 @@ public class EnderecoControllerTest {
 	}
 	
 	public List<Endereco> addressFindAll() {
-		Endereco endereco1 = new Endereco(1L, "Av José Odorizzi", "2261", "BL:04 Apto:24",
-				"Assunção", "São Bernardo do Campo", "SP", "Brasil", "09861-001", "-23.7119865", "-46.58395429999999");
-		Endereco endereco2 = new Endereco(1L, "Av José Odorizzi", "2261", "BL:04 Apto:24",
-				"Assunção", "São Bernardo do Campo", "SP", "Brasil", "09861-001", "-23.7119865", "-46.58395429999999");
+		Endereco endereco1 = new Endereco();
+		endereco1.setId(1L);
+		endereco1.setStreetName("Av José Odorizzi");
+		endereco1.setNumber("2261");
+		endereco1.setComplement("BL:04 Apto:24");
+		endereco1.setNeighbourhood("Assunção");
+		endereco1.setCity("São Bernardo do Campo");
+		endereco1.setState("SP");
+		endereco1.setCountry("Brasil");
+		endereco1.setZipcode("09861-001");
+		endereco1.setLatitude("-23.7119865");
+		endereco1.setLongitude("-46.58395429999999");
+		
+		Endereco endereco2 = new Endereco();
+		endereco2.setId(1L);
+		endereco2.setStreetName("Av. das Araras");
+		endereco2.setNumber("946");
+		endereco2.setComplement(null);
+		endereco2.setNeighbourhood("Parque dos Passaros");
+		endereco2.setCity("São Bernardo do Campo");
+		endereco2.setState("SP");
+		endereco2.setCountry("Brasil");
+		endereco2.setZipcode("09861-090");
+		endereco2.setLatitude(null);
+		endereco2.setLongitude(null);
 		
 		List<Endereco> result = new ArrayList<Endereco>();
 		result.add(endereco1);
@@ -101,8 +122,18 @@ public class EnderecoControllerTest {
 	}
 	
 	public Endereco addressWithNull() {
-		Endereco endereco = new Endereco(1L, null, "2261", "BL:04 Apto:24",
-				"Assunção", "São Bernardo do Campo", "SP", "Brasil", "09861-001", "-23.7119865", "-46.58395429999999");
+		Endereco endereco = new Endereco();
+		endereco.setId(1L);
+		endereco.setStreetName("Av José Odorizzi");
+		endereco.setNumber("2261");
+		endereco.setComplement("BL:04 Apto:24");
+		endereco.setNeighbourhood("Assunção");
+		endereco.setCity("São Bernardo do Campo");
+		endereco.setState("SP");
+		endereco.setCountry("Brasil");
+		endereco.setZipcode("09861-001");
+		endereco.setLatitude("-23.7119865");
+		endereco.setLongitude("-46.58395429999999");
 		
 		return endereco;
 		

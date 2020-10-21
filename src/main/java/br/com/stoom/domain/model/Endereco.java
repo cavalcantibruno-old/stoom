@@ -38,28 +38,7 @@ public class Endereco {
 	
 	private String latitude;
 	private String longitude;
-	
-	public Endereco() {
-		
-	}
-	
-	public Endereco(Long id, String streetName, String number, String complement, String neighbourhood,
-			String city, String state, String country, String zipcode, String latitude, String longitude) {
-		super();
-		this.id = id;
-		this.streetName = streetName;
-		this.number = number;
-		this.complement = complement;
-		this.neighbourhood = neighbourhood;
-		this.city = city;
-		this.state = state;
-		this.country = country;
-		this.zipcode = zipcode;
-		this.latitude = latitude;
-		this.longitude = longitude;
-	}
-
-		
+			
 	public Long getId() {
 		return id;
 	}
